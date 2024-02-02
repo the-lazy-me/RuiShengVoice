@@ -29,7 +29,7 @@ def send_msg(kwargs, msg):
 
 
 # 注册插件
-@register(name="RuiShengVoice", description="一个对接睿声API的文本转语音插件", version="0.1", author="the-lazy-me")
+@register(name="RuiShengVoice", description="一个对接睿声API的文本转语音插件", version="1.1", author="the-lazy-me")
 class MyPlugin(Plugin):
 
     # 插件加载时触发
