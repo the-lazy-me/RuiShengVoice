@@ -5,9 +5,9 @@ api_key: sk-XXXXXXXXXXXXXXXXXXXXXXXXX
 model: reecho-neural-voice-001
 # 睿声给出的角色id，链接https://dash.reecho.ai/voices，这里以罗翔老师的为例
 voice_id: 06887661-89a4-4196-bcb4-30b227e36277
-# 多样性 (0-100)，这里和官方不一样，我选择了0，为了生成的语音音色更稳定，参考https://dev.reecho.ai/generate/async
-randomness: 0
+# 多样性 (0-100)，参考https://dev.reecho.ai/generate/async
+randomness: 97
 # 稳定性过滤 (0-100，默认请填写0)，参考https://dev.reecho.ai/generate/async
-stability_boost: 0
+stability_boost: 100
 # 是否默认开启语音功能，默认为False
 voice_switch: False
