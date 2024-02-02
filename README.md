@@ -1,6 +1,6 @@
 # RuiShengVoice
 
-QChatGPT的插件，通过调用睿声的API，将输出内容转化为音频
+[QChatGPT](https://github.com/RockChinQ/QChatGPT)的插件，通过调用睿声的API，将输出内容转化为音频
 
 > 我没学过python，代码大量依赖于AI生成，难免有不合理不正确之处，不过，代码和人有一个能跑就行😋
 
@@ -33,6 +33,12 @@ pip install -r requirements.txt
 ```bash
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
+
+### 前置工作
+
+参考此教程，安装ffmpeg
+
+教程：https://zhuanlan.zhihu.com/p/118362010
 
 ### 配置
 
