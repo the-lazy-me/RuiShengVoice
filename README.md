@@ -61,8 +61,8 @@ voice_switch: False
 ```
 
 - 先注册一个睿声的账号，在https://www.reecho.ai/
-- api_key的获取，在https://dash.reecho.ai/apiKey，要先充值的，目前最低大概15元
-- model的填写，目前不用改，具体看https://dev.reecho.ai/generate/async，点页面的post，里面可以看到介绍
+- api_key的获取，在https://dash.reecho.ai/apiKey     ，要先充值的，目前最低大概15元
+- model的填写，目前不用改，具体看https://dev.reecho.ai/generate/async   ，点页面的post，里面可以看到介绍
 - voice_id的填写，注册账号后，你可以在声音社区将喜欢的添加到角色列表，然后在[角色管理](https://dash.reecho.ai/voices)点击你选择的人物的详细，上面有个角色详细，项目那一串数字就是，例如`06887661-89a4-4196-bcb4-30b227e36277`（罗翔老师的音频模型）
 - randomness，和stability_boost同model
 
