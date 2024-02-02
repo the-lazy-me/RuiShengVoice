@@ -19,10 +19,6 @@ model = config['model']
 voice_id = config['voice_id']
 randomness = config['randomness']
 stability_boost = config['stability_boost']
-logging.info(
-    "使用参数\napi_key：" + api_key + " \nmodel：" + str(model) + " \nvoice_id：" + str(voice_id) + "\nrandomness：" + str(
-        randomness) + "\nstability_boost：" + str(stability_boost) + "\n进行语音合成")
-
 
 # 生成音频，并转为silk
 def generate_audio(text):
