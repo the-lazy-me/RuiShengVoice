@@ -77,11 +77,11 @@ class MyPlugin(Plugin):
         if command == "rsvoice" and kwargs["is_admin"]:
             if params[0] == "on":
                 enable = True
-                event.add_return("reply", ["语音开关已开启"])
+                event.add_return("reply", ["睿声语音开关已开启"])
                 event.prevent_default()
             elif params[0] == "off":
                 enable = False
-                event.add_return("reply", ["语音开关已关闭"])
+                event.add_return("reply", ["睿声语音开关已关闭"])
                 logging.info(enable)
                 event.prevent_default()
 
