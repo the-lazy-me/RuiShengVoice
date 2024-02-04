@@ -87,8 +87,8 @@ voice_switch: False
 
 管理员向机器人发生下面指令，私聊直接发指令，群里@后面加指令
 
-- `!voice on`开启语音
-- `!voice onff`关闭语音
+- `!rsvoice on`开启语音
+- `!rsvoice onff`关闭语音
 
 语音输出相比文字会有一定滞后，这一点只能等睿声提供更快速的语音输出
 

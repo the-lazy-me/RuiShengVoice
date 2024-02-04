@@ -55,7 +55,7 @@ class MyPlugin(Plugin):
         global enable
         # 如果语音开关开启
         if enable:
-            # logging.info("回复的文本消息是：{}".format(kwargs["response_text"]))
+            logging.info("回复的文本消息是：{}".format(kwargs["response_text"]))
             send_msg(kwargs, kwargs["prefix"] + kwargs["response_text"])
             res_text = kwargs["response_text"]
             # 生成语音
@@ -74,7 +74,7 @@ class MyPlugin(Plugin):
         global enable
         command = kwargs["command"]
         params = kwargs["params"]
-        if command == "voice" and kwargs["is_admin"]:
+        if command == "rsvoice" and kwargs["is_admin"]:
             if params[0] == "on":
                 enable = True
                 event.add_return("reply", ["语音开关已开启"])
