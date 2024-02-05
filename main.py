@@ -82,8 +82,15 @@ class MyPlugin(Plugin):
             elif params[0] == "off":
                 enable = False
                 event.add_return("reply", ["睿声语音开关已关闭"])
-                logging.info(enable)
                 event.prevent_default()
+            elif params[0] == "help":
+                event.add_return("reply", ["睿声语音开关：", "rsvoice on: 开启语音", "rsvoice off: 关闭语音"])
+                event.prevent_default()
+            elif params[0] == "status":
+                if enable:
+                    event.add_return("reply", ["睿声语音开关已开启"])
+                else:
+                    event.add_return("reply", ["睿声语音开关已关闭"])
 
 
 # 插件卸载时触发

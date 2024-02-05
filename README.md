@@ -42,7 +42,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some
 
 ### 配置
 
-打开RuiShengVoice文件夹下的`config.yml`，内容如下图所示
+打开RuiShengVoice文件夹下的`config.yml`，内容如下所示
 
 ```yaml
 # 以下参数，可在https://dev.reecho.ai/introduction/overview找到
@@ -56,7 +56,7 @@ voice_id: 06887661-89a4-4196-bcb4-30b227e36277
 randomness: 97
 # 稳定性过滤 (0-100，默认请填写0)，参考https://dev.reecho.ai/generate/async
 stability_boost: 100
-# 是否默认开启语音功能，默认为False
+# 是否默认开启语音功能，默认为False，即不开启，True为默认开启，看你喜好
 voice_switch: False
 ```
 
@@ -85,10 +85,10 @@ voice_switch: False
 
 ## 开关
 
-管理员向机器人发生下面指令，私聊直接发指令，群里@后面加指令
+管理员向机器人发送下面指令，私聊直接发指令，群里@后面加指令
 
-- `!rsvoice on`开启语音
-- `!rsvoice onff`关闭语音
+- `!rsvoice on`：开启睿声语音
+- `!rsvoice onff`：关闭睿声语音
 
 语音输出相比文字会有一定滞后，这一点只能等睿声提供更快速的语音输出
 
