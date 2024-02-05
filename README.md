@@ -87,6 +87,8 @@ voice_switch: False
 
 管理员向机器人发送下面指令，私聊直接发指令，群里@后面加指令
 
+- `!rsvoice status` 睿声语音插件状态查看
+
 - `!rsvoice on`：开启睿声语音
 - `!rsvoice onff`：关闭睿声语音
 
